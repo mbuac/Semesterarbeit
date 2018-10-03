@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listProducts>
+ <product id="1">
+   <info>
+	 <type>Jeans</type>
+	 <color>blue</color>
+	 <desc>High Waist</desc>
+	 <price>50.00</price>
+   </info>
+   <stock>
+     <item place='A1'>300</item>
+	 <item place='A2'>225</item>
+   </stock>
+ </product>
+ <product id="2">
+   <info>
+	 <type>Top</type>
+	 <color>white</color>
+	 <desc>Tank Top</desc>
+	 <price>8.00</price>
+   </info>
+   <stock>
+    <item place='A1'>666</item>
+	<item place='A3'>177</item>
+   </stock>
+ </product>
+ <product id="3">
+   <info>
+     <type>Jacket</type>
+     <color>black</color>
+     <desc>Winter Jacke</desc>
+     <price>87.00</price>
+   </info>
+   <stock>
+   </stock>
+ </product>
+ <product id="4">
+   <info>
+     <type>Skirt</type>
+     <color>Orange</color>
+     <desc>Summer Skirt</desc>
+     <price>30.00</price>
+   </info>
+ </product>
+</listProducts>
