@@ -1,0 +1,7 @@
+<!ELEMENT listproducts (product)*>
+<!ATTLIST product xml:id CDATA #REQUIRED>
+<!ELEMENT product (type,color,desc,price)> 
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT color (#PCDATA)*>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
