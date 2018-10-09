@@ -23,6 +23,28 @@ OPTION 1: Die 1. Option ermöglicht das Auslesen von Lagerbeständen und ihren L
 
 OPTION 2: Die zweite Option überführt die Inhalte der Datensätze in eine gemeinsame XML-Instanz.
 
-OPTION 3: Die dritte Option hilft dem User, die Funktionen und den Sinn dieses Programmes zu verstehen. Hier sind alle relevanten       Informationen festgehalten.
+OPTION 3: Die dritte Option hilft dem User, die Funktionen und den Sinn dieses Programmes zu verstehen. Hier sind alle relevanten Informationen festgehalten.
 
 OPTION 4: Die vierte und letzte Option beendet das Programm und löscht gleichzeitig den bisherigen Verlauf.
+
+
+Ziel dieses Projekts:
+
+Programmierung eines Command Line Interfaces (CLI). Das Programm soll Informationen aus zwei unterschiedlichen Datenquellen (1) auslesen,  (2) zwischenspeichern, (3) durchsuchen und anschließend (3) in ein neues Format überführen können. Eine der Datenquellen muss eine XML-Datei (mit zugehöriger DTD) sein. Das neue Format muss ebenfalls vom Typ XML sein und die Daten der Ursprungsdateien sinnvoll zusammenführen.
+
+
+Realisierte Funktionen:
+
+1. Entwerfen und beschreiben Sie einen konkreten Anwendungsfall für Ihr Programm. Die Ergebnisse sollten aus dem README.md file in GitHub ersichtlich und nachvollziehbar sein.
+
+2. Legen Sie zwei unterschiedliche Datenquellen an. Eine Datenquelle muss eine XML-Instanz mit Dokumenttypdefinition (DTD) sein, die andere ein CSV-Format (Legen Sie die Datenquellen mit Blick auf Stufe IV an! ).
+
+3. Die Komplexität Ihrer Datensätze darf die der Beispiele des vergangenen Jahres nicht unterschreiten: http://hki.uni-koeln.de/cpp-ws1718-task/
+
+Hinweis: Wenn Sie auf Schwierigkeiten mit Ihren XML-Instanzen stoßen, kann sich ein Blick in Ihre BSI-Unterlagen aus dem 1. Semester lohnen.
+
+4. Lesen Sie die Daten mit Hilfe eines Parsers ein und ermöglichen Sie folgende Operationen:
+
+4.1 Menüführung: Ein Menü startet verschiedene Abläufe im Programm und kehrt danach ins Menü zurück.
+
+4.2 Konvertieren: Das Programm fragt nach Name und Pfad der Ausgabe und exportiert die Informationen aus beiden Datensätzen in einer neuen, vereinten XML Instanz, welche Sie inkl. DTD definieren.
