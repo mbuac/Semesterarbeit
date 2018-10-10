@@ -1,0 +1,14 @@
+<!ELEMENT listProducts (product)+>
+<!ELEMENT product (info,stock)>
+<!ATTLIST product
+  id CDATA #REQUIRED>
+<!ELEMENT info (type,color,desc,price)>
+<!ELEMENT stock (item)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST item
+  id CDATA #REQUIRED
+  place NMTOKEN #REQUIRED>
