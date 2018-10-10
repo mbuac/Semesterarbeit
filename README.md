@@ -23,4 +23,7 @@ OPTION 3: Die dritte Option hilft dem User, die Funktionen und den Sinn dieses P
 OPTION 4: Die vierte und letzte Option beendet das Programm und löscht gleichzeitig den bisherigen Verlauf.
 
 (Das Programm wurde mithilfe des Programmes Dev-C++ 5.8.2 enwtickelt und einwandfrei ausgeführt.)
+Die Screenshots zeigen die Konsolenausgaben der Funktionen und mithilfe der ziel.xml, sowie der ziel.dtd sind mithilfe dieses Programmes zu bildenden Datensätze abgebildet.
+
+Leider hatte ich Schwierigkeiten beim Ansprechen der ID-Werte, um die einzelnen Werte der DTD an die richtigen Stellen der XML-Datei zu setzen. (Die ziel.xml stellt daher nur die Wunsch-XML dar, die optimalerweise erzeugt werden sollte.)
 
