@@ -8,8 +8,7 @@
 	 <price>50.00</price>
    </info>
    <stock>
-     <item place='A1'>300</item>
-	 <item place='A2'>225</item>
+     <item id='1' place='A1'> 300 </item>
    </stock>
  </product>
  <product id="2">
@@ -20,8 +19,7 @@
 	 <price>8.00</price>
    </info>
    <stock>
-    <item place='A1'>666</item>
-	<item place='A3'>177</item>
+     <item id='2' place='A1'> 666 </item>
    </stock>
  </product>
  <product id="3">
@@ -32,6 +30,7 @@
      <price>87.00</price>
    </info>
    <stock>
+     <item id='3' place='A3'> 177 </item>
    </stock>
  </product>
  <product id="4">
@@ -41,5 +40,8 @@
      <desc>Summer Skirt</desc>
      <price>30.00</price>
    </info>
+   <stock>
+     <item id='4' place='A2'> 225 </item>
+   </stock>
  </product>
 </listProducts>
